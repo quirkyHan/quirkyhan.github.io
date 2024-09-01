@@ -1,0 +1,38 @@
+*{
+    font-family: montserrat;
+    text-decoration: none;  
+    }
+
+    html{
+      scroll-behavior: smooth;
+      font-size: calc(0.1em + 1vw);
+    }
+    
+    #hero{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.404), rgba(0, 0, 0, 0.788)), url(img/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    } 
+  
+    img{
+      width: 100%;
+    }
+  
+    h4{
+      text-align: center;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    .user, .pw{
+      width: 100%;
+      border:none;
+      border-bottom: 1px solid;
+    }
+
+    .tombol{
+      margin-left: 3em;
+    }
